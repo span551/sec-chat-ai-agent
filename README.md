@@ -60,28 +60,7 @@ Apify API token is included in the submission email as required.
 
 ---
 
-## Project Structure
-sec-chat-ai-agent/
-├── agents/
-│   ├── sec_agent.py          # SEC Form 4 data fetcher + parser
-│   ├── twitter_agent.py      # Apify + Scweet tweet fetcher
-│   ├── sentiment_agent.py    # Groq LLM batch sentiment classifier
-│   ├── rag_agent.py          # FAISS vector index + RAG pipeline
-│   └── chart_agent.py        # Matplotlib chart generator
-├── data/
-│   ├── tweets.json           # Cached tweets (auto-generated)
-│   ├── sentiment.json        # Sentiment results (auto-generated)
-│   ├── sec_transactions.json # SEC data (auto-generated)
-│   ├── chunks.json           # RAG chunks (auto-generated)
-│   └── charts/               # Generated chart images
-├── main.py                   # Full pipeline runner
-├── chatbot.py                # Flask API server
-├── .env.example              # Environment variables template
-├── requirements.txt          # Python dependencies
-├── README.md                 # This file
-└── EXAMPLES.md               # Sample input/output examples
 
----
 
 ## Chunking Strategy (RAG)
 
@@ -218,12 +197,5 @@ Triggers automatically when user asks about:
 | Logging & error handling | ✅ Throughout all agents |
 | Scale | ✅ Batch processing, caching, rate limit handling |
 
----
 
-## Submission
 
-- **GitHub:** https://github.com/YOUR_USERNAME/sec-chat-ai-agent
-- **Apify Token:** See submission email
-- **Output Examples:** See [EXAMPLES.md](EXAMPLES.md)
-- **Email:** gilad@crowdwisdomtrading.com
-EOF
