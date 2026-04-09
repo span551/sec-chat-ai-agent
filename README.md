@@ -118,19 +118,10 @@ pip install -r requirements.txt
 
 ---
 
-### 3. Add environment variables
-
-Create `.env` file:
-
-```
-SEC_API_KEY=
-APIFY_TOKEN=
-OPENROUTER_API_KEY=
-```
 
 ---
 
-### 4. Run full pipeline
+### 3. Run full pipeline
 
 ```
 python3 main.py
@@ -138,7 +129,7 @@ python3 main.py
 
 ---
 
-### 5. Run chatbot
+### 4. Run chatbot
 
 ```
 python3 chatbot.py
