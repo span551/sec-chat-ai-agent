@@ -1,0 +1,31 @@
+# Secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+
+#  Virtual env
+venv/
+.venv/
+
+#  ML / FAISS
+*.index
+*.faiss
+*.pkl
+
+# Charts
+*.png
+*.jpg
+
+# Logs
+*.log
+
+#  OS
+.DS_Store
+Thumbs.db
+
+#  IDE
+.vscode/
+.idea/
