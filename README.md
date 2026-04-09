@@ -91,23 +91,17 @@ cd sec-chat-ai-agent
 pip install -r requirements.txt
 ```
 
-### 3. Configure environment
-```bash
-cp .env.example .env
-# Edit .env and fill in your API keys
-```
-
-### 4. Run the full pipeline
+### 3. Run the full pipeline
 ```bash
 python3 main.py
 ```
 
-### 5. Start the chatbot
+### 4. Start the chatbot
 ```bash
 python3 chatbot.py
 ```
 
-### 6. Use via Hermes Agent (WSL2/Linux)
+### 5. Use via Hermes Agent (WSL2/Linux)
 ```bash
 # Install Hermes
 curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash
@@ -121,18 +115,6 @@ hermes
 > what is the sentiment on CRWV?
 ```
 
----
-
-## Environment Variables
-
-```bash
-# .env.example
-SEC_API_KEY=           # sec-api.io — Form 4 filing access
-APIFY_API_KEY=         # apify.com — Twitter scraping (free plan)
-GROQ_API_KEY=          # console.groq.com — LLM sentiment (free)
-OPENROUTER_API_KEY=    # openrouter.ai — Hermes Agent LLM (free)
-TWITTER_AUTH_TOKEN=    # X/Twitter browser cookie (auth_token)
-TWITTER_CT0=           # X/Twitter browser cookie (ct0)
 ```
 
 ---
