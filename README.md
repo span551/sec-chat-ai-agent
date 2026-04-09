@@ -82,7 +82,7 @@ Data is split into structured chunks before indexing into FAISS:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/sec-chat-ai-agent.git
+git clone https://github.com/span551/sec-chat-ai-agent.git
 cd sec-chat-ai-agent
 ```
 
