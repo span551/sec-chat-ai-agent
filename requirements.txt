@@ -1,0 +1,6 @@
+sec-api
+flask
+apify-client
+twikit
+python-dotenv
+requests
