@@ -5,7 +5,7 @@ The system analyzes SEC insider trading data and Twitter/X sentiment to generate
 
 ---
 
-## 🚀 Architecture
+## Architecture
 
 SEC EDGAR (Form 4 filings, last 24h)
 ↓
@@ -23,7 +23,7 @@ Hermes Agent (closed learning loop + memory)
 
 ---
 
-## 🧠 Key Features
+## Key Features
 
 * SEC insider trading analysis (last 24 hours)
 * Top 5 tickers by transaction value (deduplicated)
@@ -37,7 +37,7 @@ Hermes Agent (closed learning loop + memory)
 
 ---
 
-## 🔁 Reply Planner (Important Requirement)
+## Reply Planner (Important Requirement)
 
 The system generates **actionable X/Twitter replies** based on sentiment and insider activity.
 
@@ -51,7 +51,7 @@ Traders should wait for confirmation before entering positions."
 
 ---
 
-## 🐦 Twitter Scraping (Apify Requirement)
+## Twitter Scraping (Apify Requirement)
 
 Apify is fully integrated as required in the assignment.
 
@@ -65,7 +65,7 @@ Apify API token is provided in the submission email as required.
 
 ---
 
-## 🧩 Tech Stack
+## Tech Stack
 
 | Component          | Technology                                       |
 | ------------------ | ------------------------------------------------ |
@@ -81,7 +81,7 @@ Apify API token is provided in the submission email as required.
 
 ---
 
-## 🧠 RAG Chunking Strategy
+##  RAG Chunking Strategy
 
 Data is structured into semantic chunks before indexing:
 
@@ -99,7 +99,7 @@ Data is structured into semantic chunks before indexing:
 
 ---
 
-## ⚙️ Setup
+##  Setup
 
 ### 1. Clone repository
 
@@ -147,7 +147,7 @@ python3 chatbot.py
 
 ---
 
-## 📊 Sample Output
+##  Sample Output
 
 **Q:** Which stock is most risky?
 
@@ -157,7 +157,7 @@ combined with mixed sentiment, indicating uncertainty in market direction.
 
 ---
 
-## 🔁 Closed Learning Loop (Hermes)
+##  Closed Learning Loop (Hermes)
 
 Implemented using Hermes Agent’s built-in memory:
 
@@ -168,7 +168,7 @@ Implemented using Hermes Agent’s built-in memory:
 
 ---
 
-## 🧠 Hermes Skill
+##  Hermes Skill
 
 Integrated as a custom skill:
 
@@ -178,7 +178,7 @@ Integrated as a custom skill:
 
 ---
 
-## ✅ Evaluation Criteria Coverage
+##  Evaluation Criteria Coverage
 
 | Requirement              | Status                         |
 | ------------------------ | ------------------------------ |
@@ -195,7 +195,7 @@ Integrated as a custom skill:
 
 ---
 
-## 📌 Notes
+##  Notes
 
 * The system strictly answers based on collected data (no hallucination)
 * Designed for modular scalability (agents can be extended easily)
@@ -203,12 +203,4 @@ Integrated as a custom skill:
 
 ---
 
-## 📬 Submission
 
-Includes:
-
-* GitHub repository (this project)
-* Apify API token (shared via email)
-* Sample outputs (included above)
-
----
