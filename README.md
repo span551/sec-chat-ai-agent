@@ -1,6 +1,5 @@
 # CrowdWisdomTrading SEC Chat AI Agent
 
-A backend Python AI agent system built for the CrowdWisdomTrading internship assessment.
 The system analyzes SEC insider trading data and Twitter/X sentiment to generate actionable insights via a RAG-powered chatbot, orchestrated through Hermes Agent.
 
 ---
